@@ -20,6 +20,13 @@ public class Main {
         for (int day = friday; day <= 31; day += 7) {
             System.out.println("Сегодня пятница " + day + "-ое число. " + "Необходимо подготовить отчет.");
         }
-
+        int year = 2022;
+        int comet = year - 200;
+        int cometForAllYears = year + 100;
+        for (int all = cometForAllYears; all > comet; all+=79) {
+            if (all % 79 == 0) {
+                System.out.println(all);
+            }
+        }
     }
 }
