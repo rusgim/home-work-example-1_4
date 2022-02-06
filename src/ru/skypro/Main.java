@@ -15,5 +15,11 @@ public class Main {
             st = st - re;
             System.out.print(" " + st);
         }
+        System.out.print("\n");
+        int friday = 4;
+        for (int day = friday; day <= 31; day += 7) {
+            System.out.println("Сегодня пятница " + day + "-ое число. " + "Необходимо подготовить отчет.");
+        }
+
     }
 }
